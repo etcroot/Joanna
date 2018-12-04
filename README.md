@@ -20,7 +20,8 @@ src/config.json
     "musicrole": "MUSIC DJ ROLE",
     "admins": ["ADMIN ID's", "Supports multiple"],
     "defaultvolume": "Default Playback Volume"
-}```
+}
+```
 
 **Running the bot**
 
