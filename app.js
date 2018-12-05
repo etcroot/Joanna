@@ -61,7 +61,7 @@ client.music.start(client, {
         .addField('__Channel Count__', client.channels.size, true)
         .addField('__Emojis Count__', client.emojis.size, true)
         .addField('__Uptime__', moment.duration(client.uptime).format('d[d ]h[h ]m[m ]s[s]'), true)
-        .addField('❯ Memory Usage', `${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)}MB`, true)
+        .addField('__Memory Usage__', `${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)}MB`, true)
         .setFooter(`${client.user.username} | By: etcroot#6666`)
       message.channel.send(embed);
     }
